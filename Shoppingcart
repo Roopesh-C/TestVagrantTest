@@ -1,0 +1,18 @@
+import java.util.Arrays;
+public class Arrays {
+    public static void main(String[]args)
+    string[] product={"Leather wallet","Umbrella","Cigarette","Honey"};
+    double[] unit price={1100,900,200,100}
+    double[] gst={18,12,18,0}
+    double[] quantity={1,4,3,2}
+    double[] maximum=new double[4];
+    maximum[0]=(unit price[0]+(unit price[0]*gst[0]))*quantity[0];
+    maximum[1]=(unit price[1]+(unit price[1]*gst[1]))*quantity[1];
+    maximum[2]=(unit price[2]+(unit price[2]*gst[2]))*quantity[2];
+    maximum[3]=(unit price[3]+(unit price[3]*gst[3]))*quantity[3];
+    Arrays.sort[maximum];
+    system.out.println(product[1] +"gst amount"+ maximum[0]);
+    double product=0.0;
+    for (i=0;i<maximum,length-1;i++)
+    total+= maximum[i];
+system.out.println("total amount"+ total);
